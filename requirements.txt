@@ -1,0 +1,13 @@
+# Reference runtime versions from the environment used for E4.
+# Install torch==2.0.0 and torchvision==0.15.1 before CUDA extensions.
+numpy==1.22.4
+scipy==1.7.3
+trimesh==4.0.5
+open3d==0.17.0
+plyfile==0.8.1
+Pillow==10.4.0
+tqdm==4.67.1
+opencv-python-headless==5.0.0.93
+matplotlib==3.7.5
+ninja>=1.10,<2
+packaging

@@ -1,0 +1,245 @@
+{
+  "description": "Original SHA-256 provenance for retained imported files, before PMGS edits. Current source includes DTU camera/data adapters and independent affine binding. This is not a final-tree integrity manifest.",
+  "files": [
+    {
+      "file": "arguments/__init__.py",
+      "sha256": "5cb5e3fe15802d38edee4c73122fe7b5bbdf8efa2d0a12cbb105dadcff1166e2",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "arguments_games/__init__.py",
+      "sha256": "ada06d6b96fad639fea3a7a227c243c033c7bd67796664e663d7a1d4fffd0787",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/__init__.py",
+      "sha256": "0e7c27f1b9a2e9f077214e1d3e527f7d4e5c26abce03af7723260ef408213bf5",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/flat_splatting/scene/flat_gaussian_model.py",
+      "sha256": "fed2b2299a7bae4a2653b6245b6d5e3b0ca596cd952b5ad21b3ff6619cd854d3",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/flat_splatting/scene/points_gaussian_model.py",
+      "sha256": "761f19d6cb582d0caf14a7af00abfb535c6ee774ce479dbee0475da11ef9e383",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/init/__init__.py",
+      "sha256": "4ca48c3f81d1194c7761af23c2bdacaa1727b9e0eba69a068c37d078f1f5693c",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/init/adaptive_sampler.py",
+      "sha256": "29089226db686b063b03bb2518c78e997efd370ce787265cde627753a967575c",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/init/complexity_extractor.py",
+      "sha256": "c2cc55ca123d6f941aac39bb0844b5bbe06b24a4575fa9076a25517f8d2dec04",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/init/complexity_fusion.py",
+      "sha256": "e4ac8f430411b985ee34bf4c14274bcd464e8a12f66d49c8de9d581028b254e5",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/init/legacy_sampler.py",
+      "sha256": "ac6969cf5473b9c85bae01d11ff9e56436c9f2219ef42120e0257f526887e73e",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/init/mesh_sampler.py",
+      "sha256": "6611b40d71337e03dd97b1571ce984ff4a7d3b961a02213b758bfebcf8c29e19",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/init/patch2d_sampler.py",
+      "sha256": "d0419d97b5142a26129e9d4ccaff079acbe06e192c7cbc052a3edfa44a6c58be",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/init/pipeline.py",
+      "sha256": "aed4bc0862cd502da785a2a4fa07f4d050d5eadf9c1d031531eb29fa0ee8a33c",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/init/projector.py",
+      "sha256": "789778f5aee670e72357e841bef936c59c0646185bffd5d98ff071b6b6e45a2e",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/init/visual_sampler.py",
+      "sha256": "acf7289f81ee621fee9404fcff3334fbd31980f4fd6135a8ed2515e86e8e4eea",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/scene/dataset_readers.py",
+      "sha256": "13ba113f4b4971cb8fbac4352ff61a737d6b601482a35e2a1b3e41271b9b71fe",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/scene/gaussian_mesh_model.py",
+      "sha256": "89b07c623b1d0793c606427dcfa4538af778c0e20d87acd4cd2906e71cb9d168",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/utils/general_utils.py",
+      "sha256": "46c3967363d15c40a4809da633e31cbfa0ba7c67cc3c051430bb03fd97856377",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/utils/graphics_utils.py",
+      "sha256": "0ef8c322749bb727c98e4f32458a43b84b541e68ac4417a2847091287ef425e3",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/mesh_splatting/utils/model_utils.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/multi_mesh_splatting/scene/dataset_readers.py",
+      "sha256": "4c00d64553a97e853a8f14da00923976b4d5e7e9d45ae0842bfc2b316f46dc1f",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/multi_mesh_splatting/scene/gaussian_multi_mesh_model.py",
+      "sha256": "5adcf835c7cdeb894bea5be8423dfe69d4ae5c9ca23cc739f84b58e1ff865d09",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/multi_mesh_splatting/utils/graphics_utils.py",
+      "sha256": "7add1ac7b4be13491608bc6af84c5b21b31d1d72ee212098d54b011fef745147",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/multi_mesh_splatting/utils/model_utils.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "games/scenes/__init__.py",
+      "sha256": "3d411fc61b252a9fac1e7a9e31c80b99b73e896142dfd76be9615b9248b85635",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "scene/__init__.py",
+      "sha256": "c9d077cc5c36eef5520c538dcb040e263ce5f2539888044594a27bc9bca5f627",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "scene/cameras.py",
+      "sha256": "f5ff25ba0f3a56485cf77c3d396cd2ff66daf18be981b16ba3bbfb887e9f12c0",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "scene/colmap_loader.py",
+      "sha256": "6948ce06366e1f727ddffc39a445bf4b6873824f02abc39df63eb0c8f0fb3f36",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "scene/dataset_readers.py",
+      "sha256": "981ed8a76c3eb73d75616d1ec0ff7a98c132337e9afee1ae16b32b944b89ea37",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "scene/gaussian_model.py",
+      "sha256": "116777952eb08f39daaf8f0312c9253f4a57499b2e40bfaefd4e15340c4555b8",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "renderer/gaussian_renderer/__init__.py",
+      "sha256": "87e67db7ef8b880557fa7498d989069985700377a4c407cd145e9b86617f4d20",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "renderer/gaussian_renderer/network_gui.py",
+      "sha256": "7e392b8122a8e1359b4550769eac06190806a8c2eeb7f5aa7cbd025738dedf89",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "utils/camera_utils.py",
+      "sha256": "a450a6bcd3630a183f0a6be1b75a89e91444471b12f460613b8beb23a9c3bcef",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "utils/general_utils.py",
+      "sha256": "ebf22a46e3379393c3253cfd35de17cd7fea6111678839ce9b671a474d159ae1",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "utils/graphics_utils.py",
+      "sha256": "d6e75de8161e98b72c2691e8a944a842e1b6625d2306035d079c868ac632edfc",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "utils/image_utils.py",
+      "sha256": "872a4507773b9378db9e0fefc90104dc474b27551af18ada73f000a7a00a4ba0",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "utils/loss_utils.py",
+      "sha256": "c5ba89ff3cdcac8907908dbd5293e5095f6d6592020204e291490287fdace22e",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "utils/sh_utils.py",
+      "sha256": "7d1ff267546390635e6d1f68c4f88c4a8b052482d5c9be1d32f06bc69e9a96e7",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "utils/system_utils.py",
+      "sha256": "be01c02d3118c5d53808bc04efccd00c35a705a43a87c3583ea2f4752bc48553",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "lpipsPyTorch/__init__.py",
+      "sha256": "a657ce7355782eb970f95fd0d2e26eec5b9023212d2b655814da6e15b70510b4",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "lpipsPyTorch/modules/lpips.py",
+      "sha256": "3bece0b9cf9943af5b043026458819d259df9bfe7c2a1d3ffc6c905e7e5aa2b4",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "lpipsPyTorch/modules/networks.py",
+      "sha256": "dfa6f152b0e3fbc23ac3bfaea52b46e9473e64ad539ea22ab030c57af51c7f14",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "lpipsPyTorch/modules/utils.py",
+      "sha256": "1bd4a7d4e7b43215497675ed852936fe4f27e7ea3068afe0b0e1f7cfb6c48570",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "train.py",
+      "sha256": "f26820360136145dd604118ca90a306251d3426653cd53c80664647bcde12964",
+      "origin": "E4 frozen source"
+    },
+    {
+      "file": "render.py",
+      "sha256": "5b24ea4482046ace941ecfed220ab1e668aa4ad2569c6667733b44a63dc6e73f",
+      "origin": "GSMesh01_copy"
+    },
+    {
+      "file": "metrics.py",
+      "sha256": "ca03eeddbdf0d8dbc39d1d62b30199581fdad3e14ac14655af54d670028e484d",
+      "origin": "GSMesh01_copy"
+    },
+    {
+      "file": "convert.py",
+      "sha256": "e534a5f64425412dc7a1ae4360f8caf3421167984bbaca307916d8a40ba16b64",
+      "origin": "GSMesh01_copy"
+    },
+    {
+      "file": "LICENSE.md",
+      "sha256": "63fd6cde83db247c9bb13032ef0d16459f00a9e389d236569ecbeaccc006d282",
+      "origin": "GSMesh01_copy"
+    }
+  ]
+}

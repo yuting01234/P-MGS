@@ -1,0 +1,23 @@
+{
+  "format": "pmgs_lego_motion_v1",
+  "source_experiment": "deneRF_bucket_lift_view20_20261014",
+  "source_files_sha256": {
+    "reference_vertices.npy": "b98f3925f2ce928c2b986021583e53685b57b321f3675f69534101930a2d8839",
+    "reference_faces.npy": "f07c4c378a5d7db122702819f73b5431c8ebdb1663e046be22669fc119dd3216",
+    "reference_face_controls.npy": "c00f51c15c7c82d5f97f42ee987ef2e7fbb79c111a0f1bb85b363d537a97b5a6",
+    "motion_delta.npy": "11fe5983873118b67b8a94947755a51545fb24b02c2f37287dedb4b78670cc06"
+  },
+  "archive_sha256": "ee3c32ef1125e86c573f14a2d037d9edc1ee804dbb7f7ae3766793ddd766abf6",
+  "valid_reference_faces": 2035324,
+  "excluded_degenerate_faces": 54,
+  "control_count": 12017,
+  "frames": 120,
+  "centroids_dtype": "float32",
+  "motion_dtype": "float32",
+  "derivation": "Exact float32 valid reference triangle centroids and matching control IDs; original float32 per-frame 4x4 motion matrices. No quantization or resampling. Byte-identical motion frames are stored once with a lossless frame index map.",
+  "source_urls": [
+    "https://github.com/qimaqi/DE-NeRF/blob/main/scripts/blender_script.py",
+    "https://huggingface.co/datasets/wengflow/robust-e-nerf/resolve/main/scenes/lego.blend?download=true"
+  ],
+  "unique_motion_frames": 61
+}

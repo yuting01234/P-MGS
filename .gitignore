@@ -1,0 +1,41 @@
+# Generated runs and external inputs
+/data/
+/datasets/
+/output/
+/outputs/
+/bindings/
+/animations/
+/renders/
+/evaluation/
+/validation/
+/manual_runs/
+/checkpoints/
+/pretrained/
+/release/
+*.ply
+*.pt
+*.pth
+*.ckpt
+*.log
+*.mp4
+*.gif
+
+# Python and extension build products
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+torch_extensions/
+
+# Local configuration
+.env
+.env.*
+.venv/
+.vscode/
+.idea/
+.DS_Store

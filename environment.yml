@@ -1,0 +1,11 @@
+name: pmgs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - torch==2.0.0
+      - torchvision==0.15.1
+      - -r requirements.txt

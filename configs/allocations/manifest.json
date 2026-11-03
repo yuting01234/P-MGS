@@ -1,0 +1,198 @@
+{
+  "format_version": 1,
+  "description": "Precomputed Qgain face allocations from the completed E4 runs. No images, mesh geometry, Gaussian weights, dense feature caches or original absolute paths are included.",
+  "scenes": {
+    "chair": {
+      "file": "chair.npz",
+      "sha256": "865c8b5be374081f1415766e9fc616528ae852f5c44811e288508fc52120041d",
+      "num_faces": 258582,
+      "gaussians": 775746,
+      "maximum_per_face": 231,
+      "signature": {
+        "vertices_sha256": "9cdffa1c42c747c043ff3e31c61c1325b9eb0d9afe223c12c17d1baeed612e71",
+        "faces_sha256": "fb03dc722150edf98edd210691fc5dc4d75d2998e1f0c2a60d9747d42c12139a",
+        "train_camera_image_sha256": "7dd7b81f2d3ab70358fac3e36254923f549c8313be466d2a8583c787467282af",
+        "train_views": 100
+      },
+      "initial_fingerprints": {
+        "xyz": "46a1141814348a38aa6a261ae9df852913891210d529cc129ea991a4f69f0a7a",
+        "scale_init": "bb5f8fd4feb274f539edb4f4253d89ba1d7d9b98d872cc1c78d1a35547e64c32",
+        "rotation_init": "9439e01aa0c8eadf3432423c933249cb06baac5afd77644b9c24999ac9ba86fe",
+        "face_id": "9dbff351beb37d2a16fe7cc6d95595886e782ab94423397f7615c475c29bd4ce",
+        "colors": "7c13afdb96599ddbd3b01398804f73be68af8eb884235390143be48f7f80a937"
+      },
+      "allocation_objective": "same Q/n objective, training foreground support caps and separate-view renderer work prices",
+      "allocation_rule": "Q/[k(k+1)] - sum_v mu_v T_fv/W_v",
+      "seed": 0,
+      "num_per_face": 3
+    },
+    "drums": {
+      "file": "drums.npz",
+      "sha256": "319e32319216318e2d731a3b2fd0ed8eb313c4bc354dcf696eeb69a7febcaaf7",
+      "num_faces": 1135116,
+      "gaussians": 3405348,
+      "maximum_per_face": 650,
+      "signature": {
+        "vertices_sha256": "3881af9edb09977255b33e5046c3318112b848ecaf991a3098c68f61923ccd34",
+        "faces_sha256": "892d9029eea1c475ce70b858a37037e17f4a5c97690d4c7ab76e7a9142d3cd2b",
+        "train_camera_image_sha256": "f533ecc719b3d299684eeffb936077e525efb3c297c4451928a7a47ef29fd5e5",
+        "train_views": 100
+      },
+      "initial_fingerprints": {
+        "xyz": "4c7564096aec50e6fa45d52f6b626cea2882127c217ed157d85b46925f741206",
+        "scale_init": "ebe6e3c8fb99bb8e4777fb28cea106d91fd8ea4472a1092be002047207e737fb",
+        "rotation_init": "0b23af72259a4231773cd69c59e6fb7e228a625f4be7b8e1dba0959d9c3d1233",
+        "face_id": "a61db1af3c39e505f41ae96e7709c2de24042dff1212f8a8aca264d691d15a50",
+        "colors": "99518a065ef80ff4d60cee13ecbde6a33239baed9db655faf26e4557fa07fa32"
+      },
+      "allocation_objective": "same Q/n objective, training foreground support caps and separate-view renderer work prices",
+      "allocation_rule": "Q/[k(k+1)] - sum_v mu_v T_fv/W_v",
+      "seed": 0,
+      "num_per_face": 3
+    },
+    "ficus": {
+      "file": "ficus.npz",
+      "sha256": "af27e8cf01d689ddfc7d1fb6f0301eb6e931ff0232a0635278dcc79442b142af",
+      "num_faces": 184474,
+      "gaussians": 553422,
+      "maximum_per_face": 201,
+      "signature": {
+        "vertices_sha256": "b1171a7ed4e81f35939bdf9d19c626fad8ff5dcf86ccfb9443204f796621f50c",
+        "faces_sha256": "07736a5c11ecd4529bf1690c8ac806d5e17f80a3ed295f2711392afae1b9ecbc",
+        "train_camera_image_sha256": "9764bae063f46de8f1afbcf1d20cd59c391bfd7da2b2e8361b15dee1eef5a068",
+        "train_views": 100
+      },
+      "initial_fingerprints": {
+        "xyz": "391b4b507ca6360fcd151fdc6d3bf220306a979c14e2a247e23811c6edeb8ba5",
+        "scale_init": "705518a7077a6d4d1eb54414ed8bc29f870d38cc93d70ce03fa731a07e749392",
+        "rotation_init": "6673b3b5e6ff8130035f52f69c1900f77e470ea3056c9c7dceaf580958d2bda8",
+        "face_id": "f0dbf209d46c7fc1d8384ff6ad360ac426cb0fc8be070ae88317f07975ba47c4",
+        "colors": "538d0329cb2947bf7f1eb597caeff18ddf06fd1581147d8f0c40c2636fcaf710"
+      },
+      "allocation_objective": "same Q/n objective, training foreground support caps and separate-view renderer work prices",
+      "allocation_rule": "Q/[k(k+1)] - sum_v mu_v T_fv/W_v",
+      "seed": 0,
+      "num_per_face": 3
+    },
+    "hotdog": {
+      "file": "hotdog.npz",
+      "sha256": "86b90c25b6bb58718b210861640dd48721876e875ff63baba35449c497b28c15",
+      "num_faces": 66000,
+      "gaussians": 198000,
+      "maximum_per_face": 245,
+      "signature": {
+        "vertices_sha256": "e2c1d91d5e733d231b643fcc6f164f88c0471be445612475dd84720d0382290f",
+        "faces_sha256": "18d6cb81db87d4b684f1534e507d62e8f8e944a32bb1cf9721a317e8825fb8c9",
+        "train_camera_image_sha256": "7c5d4af3681e2e4b965bcbb527c4e101b703c83d84343c9a08525c4c048431a3",
+        "train_views": 100
+      },
+      "initial_fingerprints": {
+        "xyz": "a8b2b155ead3404b432d8832a419c63c18d1e7d50e5e06cfce1c6ae9a3e112d9",
+        "scale_init": "cd2cb291bf9c67bdaa90ad0c23c25d21850ae2c56ca9a13767146e962d49c66a",
+        "rotation_init": "031052846c6716d321ad337a9462191cf710ed80089fa91054129017d0aa3df1",
+        "face_id": "d893d46f8194d204d4f8cd38dd641c2c0531b1e66e8da88b8f87b55f062da256",
+        "colors": "a17ce7b9677abbfa81bb6ee94a6dd224d325847876f39329265b45655ad54af6"
+      },
+      "allocation_objective": "same Q/n objective, training foreground support caps and separate-view renderer work prices",
+      "allocation_rule": "Q/[k(k+1)] - sum_v mu_v T_fv/W_v",
+      "seed": 0,
+      "num_per_face": 3
+    },
+    "lego": {
+      "file": "lego.npz",
+      "sha256": "45ab6d9afb0fca406e9e984d360ac788e38df082451d5f1993e1d05cf493967c",
+      "num_faces": 2035378,
+      "gaussians": 6106134,
+      "maximum_per_face": 721,
+      "signature": {
+        "vertices_sha256": "c271a22a13b7bb8c7b839e36c0f8f4b4a8f8c36efea6e1f7ab107df8b396556d",
+        "faces_sha256": "45ed927385e6d910243e9c77c1e96795e92b9758812057d97edb3affcd021bcd",
+        "train_camera_image_sha256": "6a25ba4b84ea89357c5ca5491329b038f49f850063b7d296e6b2f95dc2da4cf3",
+        "train_views": 100
+      },
+      "initial_fingerprints": {
+        "xyz": "ed0038d9340143cae9c58697fe9c8818d0e735ef9c50b81c57a3fe48a17ab3c5",
+        "scale_init": "9fe4d32d97a0d89465f8633af8e80df6d1ebd2ccb5f14d23abee2d324f94f6c9",
+        "rotation_init": "2c1c39f3a88d6164e5cde36fb71ba83819b3e33e0b96c664608155a5b57cbd81",
+        "face_id": "fa3cb81f94920b202ba3301a870ac90ad93dfee41efd7e2d56f5a157e8ac0085",
+        "colors": "3ab5a687cf65db0c843ce9a606fa50f69cd045a123b8f40094b90f9f199760f4"
+      },
+      "allocation_objective": "min sum Q_f/n_f; exact 3F budget and one initial work constraint for each training view",
+      "allocation_rule": "Q/[k(k+1)] - sum mu_v T_fv/W_v",
+      "seed": 0,
+      "num_per_face": 3
+    },
+    "materials": {
+      "file": "materials.npz",
+      "sha256": "8a2ef5fd09a7846482d4f7ad160255296dc23541f53a44c59ef8680da82c2b7a",
+      "num_faces": 1370904,
+      "gaussians": 4112712,
+      "maximum_per_face": 141,
+      "signature": {
+        "vertices_sha256": "044ed6322da3714b9b4c5458666fdcef88ebf3f1d6950a6e4582806bf57a4b40",
+        "faces_sha256": "fe4ab8d875beb2e0bbd3996d8e369336141c0cbcb4fa4fc53788fac367995b11",
+        "train_camera_image_sha256": "a372d1c51ac700d4aed84b091bbc4efe576bd9b7a3226637da1a9ea7d0ea241a",
+        "train_views": 100
+      },
+      "initial_fingerprints": {
+        "xyz": "88bc0accf44e98d0e29df7c480b7eeff81910285fc291e7fe6881b5dc15fe952",
+        "scale_init": "dec010e5a08858a09ba637f72a454992d114c2bd5d0aff9a830c812dc0d8439f",
+        "rotation_init": "472910ec4e4876b170a246c284b9e77d0d092189a5f6e453aebb002229a0e71f",
+        "face_id": "7ddc51b6ee2a7075ba89d60bef2b6d6cac97e47e0a80eabea312cceba32898af",
+        "colors": "3b42d14be9136594495cea68861eee5d3f9ad663122393911bddc02864f6812a"
+      },
+      "allocation_objective": "same Q/n objective, training foreground support caps and separate-view renderer work prices",
+      "allocation_rule": "Q/[k(k+1)] - sum_v mu_v T_fv/W_v",
+      "seed": 0,
+      "num_per_face": 3
+    },
+    "mic": {
+      "file": "mic.npz",
+      "sha256": "0114b95dc045673653e513ea4e726aa5aafb6f1ce357913db156fb4002fa8681",
+      "num_faces": 798820,
+      "gaussians": 2396460,
+      "maximum_per_face": 290,
+      "signature": {
+        "vertices_sha256": "e7ca8f78f86457e54e5e1a38533e745cccf9bfd248d458c9b4abc4621ff20622",
+        "faces_sha256": "28c5f78ec66441653ce137a09fc0a175184602207b7a6fc64209237ae6fb221b",
+        "train_camera_image_sha256": "d04ef4b49fc4e3c8934d7fae1329555452ec4d933ce9142507040b35b5995c2e",
+        "train_views": 100
+      },
+      "initial_fingerprints": {
+        "xyz": "0451d0e7a6cd5d2087c5bcf0f77c168748a22a0516ce4e3ceb54d61d1fcad306",
+        "scale_init": "14aa6186aa067e164be79fc673179e212b570f59e1055f68e6b3a67bef9fc203",
+        "rotation_init": "08e104a6d39742ee1191cb137ddf9152292abd3eae83489a98d0b26bbe04b841",
+        "face_id": "276e132c5205f3f18e73c0f48912bee2cecb8f6fbd0b405f9711e0ef8eac6084",
+        "colors": "02c9e3ff21c214c39b5ad1aef2c34a562186ea156e16088d5c4c7b178a00ae74"
+      },
+      "allocation_objective": "same Q/n objective, training foreground support caps and separate-view renderer work prices",
+      "allocation_rule": "Q/[k(k+1)] - sum_v mu_v T_fv/W_v",
+      "seed": 0,
+      "num_per_face": 3
+    },
+    "ship": {
+      "file": "ship.npz",
+      "sha256": "8f54e41e2a6a66b3907ac19655bb7b6668e5e10f94a12514996a7cc6a1d6da20",
+      "num_faces": 1154728,
+      "gaussians": 3464184,
+      "maximum_per_face": 1150,
+      "signature": {
+        "vertices_sha256": "0f7d5bb463880eba8f94939dc151e16c537f985f0bd17487a057f750c2c26c99",
+        "faces_sha256": "0b294d398b24f88d05e47c973fc5e23e49e30ca19dca9b9ad0233cffb5d9e985",
+        "train_camera_image_sha256": "1abe9760c4d7eddcbc2e5a90553909ed829f8c5974d8dae57512e202cebca460",
+        "train_views": 100
+      },
+      "initial_fingerprints": {
+        "xyz": "4991872dd7653c4a713551e46e61853486759f7cf4610b7079b4f738180da27c",
+        "scale_init": "66ed7d41a0e0b1a52ac36791adfac93b32d91b7df0fe949d175c9c4fe1183558",
+        "rotation_init": "ec8521d8f1033a9cf6e2355f6be4b505c3af73532a9b46e04d95b7470b743be7",
+        "face_id": "2be66ae95d31a0c9f2e55d86157c56c76bc85c680afa5345eaba40982877da84",
+        "colors": "ca22e92f7d886a4e94f967a616fad1ac51a8a31acb52dd11a41694c6e6eeb477"
+      },
+      "allocation_objective": "same Q/n objective, training foreground support caps and separate-view renderer work prices",
+      "allocation_rule": "Q/[k(k+1)] - sum_v mu_v T_fv/W_v",
+      "seed": 0,
+      "num_per_face": 3
+    }
+  }
+}
