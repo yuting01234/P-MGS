@@ -1,6 +1,6 @@
 <div align="center">
 
-# PMGS
+# P-MGS
 
 ### Perception Over Geometry: Rethinking Gaussian Allocation in Mesh-based Splatting
 
