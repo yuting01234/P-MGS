@@ -5,6 +5,9 @@ binding setup, preview, output reuse and video/GIF assembly.
 
 From the repository root:
 
+First provide `examples/lego_bucket_lift/assets/motion_assets.npz`. This external
+motion archive is not tracked by Git.
+
 ```bash
 python tools/animate.py \
   --model-path /path/to/training_run \

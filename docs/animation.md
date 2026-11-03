@@ -91,13 +91,14 @@ The animation does not read training images or modify checkpoint/binding files.
 
 ## Motion assets and provenance
 
-The bundled `assets/motion_assets.npz` contains the original valid reference-face
+The external `assets/motion_assets.npz` contains the original valid reference-face
 centroids, their control IDs and the original float32 per-frame transforms.
 Repeated frames are losslessly deduplicated. `assets/manifest.json` records
 source and archive hashes. The archive preserves the original nearest
 reference-face-centroid association and contains no trained weights, image
 dataset, rendered frames or Blender scene. All assets are ordinary files with
-no external symbolic links.
+no external symbolic links. The archive is excluded from Git and must be placed
+at `examples/lego_bucket_lift/assets/motion_assets.npz` before rendering.
 
 Each bound face is split into independent corners in memory before applying the
 rig. Ordered reference triangles and Gaussian-to-face assignments are preserved,

@@ -159,6 +159,8 @@ GPU=0
 
 Train with the selected input:
 
+Precomputed allocation caches are external files, excluded from Git. To replay a recorded allocation, place its `<scene>.npz` file in `configs/allocations/`. For a new adaptive initialization, explicitly add `--allocation adaptive` to the command below.
+
 ```bash
 python tools/reproduce_scene.py \
   --source-path "$DATA_PATH" --output "$MODEL_PATH" \
@@ -190,7 +192,7 @@ python tools/evaluate.py \
 
 ## Mesh Editing (Lego Example)
 
-Use the trained Lego model and its binding to render the supplied bucket-lift motion and assemble the frames into video and GIF:
+Use the trained Lego model and its binding to render the bucket-lift motion and assemble the frames into video and GIF. First provide the external motion file at `examples/lego_bucket_lift/assets/motion_assets.npz`; it is excluded from Git.
 
 ```bash
 MODEL_PATH="output/lego"
@@ -205,7 +207,7 @@ python tools/animate.py \
 python tools/assemble_animation.py --output-root "$ANIMATION_PATH"
 ```
 
-For a four-keyframe preview, add `--preview` to both commands. The example uses the bundled Lego rig and motion assets.
+For a four-keyframe preview, add `--preview` to both commands. The example uses the packaged rig protocol and the separately supplied Lego motion data.
 
 ## Acknowledgments
 

@@ -9,7 +9,13 @@ class RigField:
     chunk = 200000
 
     def __init__(self, device='cuda'):
-        with np.load(ROOT / protocol()['motion_assets']) as assets:
+        asset_path = ROOT / protocol()['motion_assets']
+        if not asset_path.is_file():
+            raise FileNotFoundError(
+                'Animation motion data is an external asset and is not included in Git. '
+                'Place motion_assets.npz at ' + str(asset_path)
+            )
+        with np.load(asset_path, allow_pickle=False) as assets:
             self.centroids = assets['centroids'].copy()
             self.parts = assets['controls'].copy()
             delta = assets['delta_unique'][assets['frame_indices']]

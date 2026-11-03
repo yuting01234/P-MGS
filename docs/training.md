@@ -63,15 +63,18 @@ use the active `sys.executable`.
 
 `--allocation auto` is the default. Before initialization, the trainer hashes
 mesh vertices/faces, camera parameters, and training RGB images. A complete match
-to a bundled allocation signature selects that exact Qgain per-face allocation;
+to a saved allocation signature selects that exact Qgain per-face allocation;
 otherwise it selects the original complexity-weighted adaptive sampler. The
 choice and reason are printed and saved in `run_status.json`. Renaming a scene
 or moving its directory does not prevent an otherwise exact signature match.
 
-`--allocation qgain` requires a bundled signature match and stops on mismatch.
-`--allocation adaptive` explicitly selects the adaptive sampler. The package
-contains the original eight Qgain plans, not a general Qgain recomputation
-pipeline. Its integer count arrays do not include the corresponding meshes,
+`--allocation qgain` requires a saved signature match and stops on mismatch.
+`--allocation adaptive` explicitly selects the adaptive sampler. The repository
+contains signatures for the original eight Qgain plans; their NPZ caches are
+external assets and are not tracked by Git. Put the corresponding cache in
+`configs/allocations/` to replay a matched plan. A missing matched cache stops
+the run rather than silently changing the initialization method. This is not
+a general Qgain recomputation pipeline. The integer count arrays do not include the corresponding meshes,
 images, or trained Gaussian parameters. For a new mesh or DTU input, auto mode
 normally selects adaptive initialization.
 

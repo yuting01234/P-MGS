@@ -4,7 +4,6 @@ Portable entry points can be inspected without training or loading a dataset:
 
 ```bash
 python scripts/check_release.py
-python tools/check_allocations.py
 python scripts/check_environment.py
 python tools/reproduce_scene.py --source-path data/example --dry-run
 python tools/render.py --help
@@ -13,6 +12,10 @@ python scripts/post_bind_affine.py --help
 python tools/animate.py --help
 python tools/assemble_animation.py --help
 ```
+
+After separately providing allocation caches in `configs/allocations/`, run
+`python tools/check_allocations.py` to validate them. The caches and animation
+motion NPZ are excluded from Git.
 
 Binding uses the independent affine-normal format. `--bind-only` creates,
 saves, reloads and validates that format on CPU, including reference-position

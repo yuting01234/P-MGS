@@ -19,6 +19,7 @@
 *.log
 *.mp4
 *.gif
+*.npz
 
 # Python and extension build products
 __pycache__/

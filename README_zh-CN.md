@@ -159,6 +159,8 @@ GPU=0
 
 使用选定的数据进行训练：
 
+预计算分配缓存作为外部文件提供，不纳入 Git。复现已有分配时，将对应的 `<scene>.npz` 放入 `configs/allocations/`；如需采用新的自适应初始化，请在下面的命令中显式加上 `--allocation adaptive`。
+
 ```bash
 python tools/reproduce_scene.py \
   --source-path "$DATA_PATH" --output "$MODEL_PATH" \
@@ -190,7 +192,7 @@ python tools/evaluate.py \
 
 ## 编辑网格（Lego 为例）
 
-使用训练好的 Lego 模型及其绑定文件，渲染随项目提供的铲斗抬升动作，再合成视频和 GIF：
+使用训练好的 Lego 模型及其绑定文件，渲染铲斗抬升动作，再合成视频和 GIF。请先将外部运动数据放到 `examples/lego_bucket_lift/assets/motion_assets.npz`；该文件不纳入 Git。
 
 ```bash
 MODEL_PATH="output/lego"
@@ -205,7 +207,7 @@ python tools/animate.py \
 python tools/assemble_animation.py --output-root "$ANIMATION_PATH"
 ```
 
-如需四个关键帧预览，给两条命令都加上 `--preview`。此示例使用随项目提供的 Lego rig 和运动资产。
+如需四个关键帧预览，给两条命令都加上 `--preview`。此示例使用项目中的 rig 配置和单独提供的 Lego 运动数据。
 
 ## 致谢
 

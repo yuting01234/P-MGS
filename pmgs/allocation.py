@@ -19,6 +19,12 @@ def load_allocation(scene):
 
     entry = allocation_manifest()["scenes"][scene]
     path = ROOT / "configs" / "allocations" / entry["file"]
+    if not path.is_file():
+        raise FileNotFoundError(
+            "Allocation caches are external assets and are not included in Git. "
+            "Place the matching cache at {} to replay this allocation. "
+            "Use --allocation adaptive only if a different initialization is intended.".format(path)
+        )
     if digest(path) != entry["sha256"]:
         raise ValueError("Allocation checksum mismatch: " + str(path))
     with np.load(path, allow_pickle=False) as archive:

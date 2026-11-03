@@ -15,7 +15,8 @@ project's existing DTU adapter. NeRF Synthetic inputs retain their coordinate
 convention. Runtime tools use configurable data paths, output directories, GPUs
 and the active Python interpreter.
 
-The packaged allocation archives and motion asset are local files. Datasets,
+Allocation archives and the motion asset are local external files excluded
+from Git. Their small metadata manifests remain in the source tree. Datasets,
 meshes, trained weights, generated images/videos and compiled extensions are
 external to this source release. The optional face-model and depth-estimation
 components are outside its scope.
