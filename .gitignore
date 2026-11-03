@@ -21,6 +21,12 @@
 *.gif
 *.npz
 
+# Demonstration media displayed in the READMEs
+!/assets/butterflyanimation.gif
+!/assets/leopard_animation_100.gif
+!/assets/video.mp4
+!/assets/video_preview.gif
+
 # Python and extension build products
 __pycache__/
 *.py[cod]

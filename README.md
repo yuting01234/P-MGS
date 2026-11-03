@@ -13,6 +13,27 @@ Official implementation of the paper.
 
 </div>
 
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="./assets/butterflyanimation.gif" alt="Butterfly" width="400" />
+      <br><strong>Butterfly</strong>
+    </td>
+    <td align="center" width="50%">
+      <img src="./assets/leopard_animation_100.gif" alt="Leopard" width="400" />
+      <br><strong>Leopard</strong>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="./assets/video.mp4">
+    <img src="./assets/video_preview.gif" alt="Video preview · open MP4" width="100%" />
+  </a>
+  <br>
+  <a href="./assets/video.mp4">▶ Video preview · open MP4</a>
+</p>
+
 <p align="center">
   <a href="#news">News</a> ·
   <a href="#installation">Installation</a> ·

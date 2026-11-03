@@ -12,6 +12,8 @@ def main():
     root = args.root.resolve()
     errors, count, total = [], 0, 0
     generated = {"__pycache__", ".git", ".pytest_cache"}
+    readme_media = {"assets/butterflyanimation.gif", "assets/leopard_animation_100.gif",
+                    "assets/video.mp4", "assets/video_preview.gif"}
     for path in sorted(root.rglob("*")):
         rel = path.relative_to(root)
         if any(part in generated for part in rel.parts):
@@ -26,7 +28,8 @@ def main():
         total += size
         if size > 50 * 1024 ** 2:
             errors.append(str(rel) + ": file exceeds 50 MiB")
-        if path.suffix in {".so", ".o", ".pyc", ".pt", ".pth", ".ckpt", ".ply", ".mp4", ".gif"}:
+        if (path.suffix in {".so", ".o", ".pyc", ".pt", ".pth", ".ckpt", ".ply", ".mp4", ".gif"}
+                and rel.as_posix() not in readme_media):
             errors.append(str(rel) + ": generated or training artifact in source release")
         if path.suffix == ".py":
             try:

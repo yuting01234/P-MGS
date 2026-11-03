@@ -13,6 +13,27 @@
 
 </div>
 
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="./assets/butterflyanimation.gif" alt="蝴蝶" width="400" />
+      <br><strong>蝴蝶</strong>
+    </td>
+    <td align="center" width="50%">
+      <img src="./assets/leopard_animation_100.gif" alt="豹子" width="400" />
+      <br><strong>豹子</strong>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="./assets/video.mp4">
+    <img src="./assets/video_preview.gif" alt="视频预览 · 查看 MP4" width="100%" />
+  </a>
+  <br>
+  <a href="./assets/video.mp4">▶ 视频预览 · 查看 MP4</a>
+</p>
+
 <p align="center">
   <a href="#news">News</a> ·
   <a href="#installation">安装</a> ·

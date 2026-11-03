@@ -17,8 +17,9 @@ and the active Python interpreter.
 
 Allocation archives and the motion asset are local external files excluded
 from Git. Their small metadata manifests remain in the source tree. Datasets,
-meshes, trained weights, generated images/videos and compiled extensions are
-external to this source release. The optional face-model and depth-estimation
+meshes, trained weights, runtime rendering outputs and compiled extensions are
+external to this source release. README demonstration media are included under
+`assets/`. The optional face-model and depth-estimation
 components are outside its scope.
 
 The reference result tables are existing evaluation records, rather than new
